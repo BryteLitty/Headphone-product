@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Made of Blue</title>
+        <link href="https://fonts.googleapis.com/css2?family=Catamaran&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/f2d6b7d184.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/simple-lightbox.min.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body id="home">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">SaneHut</h1>
+                <ul class="nav">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+            </div>
+            </ul>
+        </nav>
+
+        <!--Showcase-->
+        <section class="section-a">
+            <div class="container">
+                <div>
+                    <h1>The future Experience now</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Voluptate omnis excepturi illo saepe! Deleniti optio 
+                        recusandae quia non adipisci doloremque 
+                        veniam facilis ab laudantium, rem accusantium, 
+                        obcaecati corporis assumenda. Rerum.
+                    </p>
+                    <a href="#" class="btn">Read more</a>
+                </div>
+                <img src="img/headphone.jpg" alt="headphone">
+            </div>
+        </section>
+
+        <!--Overlay Text-->
+        <section class="section-b">
+            <div class="overlay">
+                <div class="section-b-inner">
+                    <h3>Loud & Clear</h3>
+                    <h2>People Aren't Hearing All The Music</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing 
+                        elit. Neque in provident quod accusamus obcaecati beatae 
+                        molestiae distinctio, rerum dolore error consequatur odio commodi 
+                        earum officiis ducimus saepe, culpa dignissimos aliquam.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!--Gallery-->
+        <section class="section-c">
+            <div class="gallery">
+                <a href="img/sleep.jpg" class="big"><img src="img/sleep.jpg" alt=""></a>
+                <a href="img/skeleton.jpg" class="big"><img src="img/skeleton.jpg" alt=""></a>
+                <a href="img/black.jpg" class="big"><img src="img/black.jpg" alt=""></a>
+                <a href="img/work.jpg" class="big"><img src="img/work.jpg" alt=""></a>
+                <a href="img/read.jpg" class="big"><img src="img/read.jpg" alt=""></a>
+                <a href="img/many.jpg" class="big"><img src="img/many.jpg" alt=""></a>
+            </div>
+        </section>
+
+        <!--Footer-->
+        <footer class="section-footer">
+            <div class="container">
+                <div>
+                    <h2>Lorem ipsum dolor sit</h2>
+                   <a href="http://twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+                   <a href="http://facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+                   <a href="http://youtube.com"><i class="fab fa-youtube fa-2x"></i></a>  
+                </div>
+                <div>
+                    <h3>Company Info</h3>
+                    <ul>
+                        <li><a href="#"></a>All Products</li>
+                        <li><a href="#"></a>About Us</li>
+                        <li><a href="#"></a>Privacy Policy</li>
+                        <li><a href="#"></a>Terms of Service</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Blog Post</h3>
+                    <ul>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                        <li><a href="#">Lorem ipsum dolor</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Subscribe</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <form name="email-form" method="POST" data-netlify="true">
+                        <div class="email-form">
+                            <span class="form-control-wrap">
+                                <input type="email" name="email" id="email" size="40" class="form-control" placeholder="Email" >
+                            </span>
+                            <button type="submit" class="form-control submit">
+                                <i class="fas fa-chevron-right"></i>
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </footer>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+        <script src="js/simplelightbox.min.js"></script>
+        <script>
+            $(function() {
+                const $gallery = $('.gallery a').simplelightbox(); 
+            });
+        </script>
+    </body>
+</html>
